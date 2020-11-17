@@ -1,0 +1,15 @@
+<div class='container'>
+
+<h1>Ver Libro</h1>
+
+<ul class="list-group col-md-4">
+    <li class="list-group-item"><p> Título: <%= @book.title %></p></li>
+    <li class="list-group-item"><p> Autor: <%= @book.author %></p></li>
+    <li class="list-group-item"><p> Género: <%= @book.genre %></p></li>
+    <li class="list-group-item"><p> Estado: <%= @book.status %></p></li>
+</ul class="list-group">
+
+<%= link_to 'Volver', books_path%>
+
+</div>
+
